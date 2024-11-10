@@ -1,0 +1,123 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    color: #333;
+    padding: 0 20px;
+}
+
+/* Header Styling */
+header {
+    background: #8DC6FF;
+    color: white;
+    text-align: center;
+    padding: 40px 0;
+}
+
+header .logo h1 {
+    font-size: 3em;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px #333;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-top: 5px;
+}
+
+/* Navigation */
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    font-weight: bold;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    transition: background 0.3s ease;
+}
+
+nav a:hover {
+    background: #FFD54F;
+    border-radius: 5px;
+}
+
+/* Main Sections */
+main section {
+    margin: 30px 0;
+    padding: 20px;
+    background: #FAF3DD;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Package Styling */
+.package-info {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.package-image {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.package-details {
+    flex: 1;
+}
+
+.package h3 {
+    font-size: 1.5em;
+    color: #FFB74D;
+}
+
+.package p {
+    font-size: 1.1em;
+    margin-top: 5px;
+}
+
+.package ul {
+    list-style-type: none;
+    margin: 10px 0;
+}
+
+.package ul li {
+    margin: 5px 0;
+}
+
+/* Footer Styling */
+footer {
+    background: #8DC6FF;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+footer a {
+    color: white;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #FFD54F;
+}
